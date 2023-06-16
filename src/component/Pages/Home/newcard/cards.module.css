@@ -1,0 +1,30 @@
+@font-face {
+  font-family: SLN;
+  src: url(./../../../../css/fonts/SLN31.otf);
+}
+
+.cards{
+    background-color:  #44444417;
+    font-family: 'SLN';
+    font-size: 1.2846153846rem;
+    line-height: 1.461538462rem;
+    letter-spacing: 0.1rem;
+    margin: 0 0 5px;
+    order: 1;
+    margin-bottom: 2px;
+}
+
+.card_title{
+    padding-top: 10px;
+    
+
+}
+
+.card_text{
+    background-color: #f6f1eb;
+
+}
+
+.card_icon{
+    background-color: #f6f1eb;
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: SLN;
+    src: url(./../../../../css/fonts/SLN31.otf);
+  }
+
+.card{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.container{
+
+}
+
+.header{
+    margin-bottom: 100px;
+}
+
+.title2{
+    padding-bottom: -50px;
+    font-family: 'SLN';
+    font-size: 2.6846153846rem;
+    line-height: 1.161538462rem;
+    letter-spacing: 0.1rem;
+    
+}
+
+.cards{
+display: flex;
+justify-content: space-between;
+column-gap: 30px;
+
+}

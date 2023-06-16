@@ -1,0 +1,15 @@
+
+
+.brands{
+    padding: 50px 0 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #44444417;
+    font-family: 'Poppins';
+
+}
+
+.brands_list{
+    display: flex;
+    column-gap: 120px;
+}

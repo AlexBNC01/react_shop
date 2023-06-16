@@ -1,0 +1,94 @@
+@font-face {
+  font-family: SLN;
+  src: url(./../../../../css/fonts/SLN31.otf);
+}
+
+.promo {
+  margin-bottom: 38px;
+  font-family: "SLN";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+}
+
+.promo_p {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.promo_phref a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.promo_content {
+  background-color: #44444417;
+
+  display: flex;
+  column-gap: 33px;
+  padding-top: 68px;
+  padding-left: 120px;
+}
+
+.promo_title {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.promo_desc {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 28px;
+}
+
+a.promo_desc {
+ text-decoration: none;
+}
+
+.promo_img {
+  position: relative;
+  width: 400px; /* Примерная ширина контейнера */
+  height: 300px; /* Примерная высота контейнера */
+  perspective: 1000px; /* Добавляем перспективу для 3D-эффекта */
+}
+
+.lv22 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; /* Сохраняем 3D-пространство */
+  transition: transform 0.5s;
+}
+
+.lv22 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Скрываем заднюю сторону при повороте */
+}
+
+.front-img {
+  transform-origin: center top; /* Поднятие оси поворота чуть выше */
+}
+
+.back-img {
+  transform: rotateX(-180deg); /* Изначально повернута на 180 градусов */
+  margin-top: 25px;
+}
+
+.promo_img:hover .lv22 {
+  transform: rotateX(-180deg); /* Поворот на 180 градусов при наведении */
+}
