@@ -9,7 +9,7 @@ const Form = () =>{
             <form className='offer_form'>
                 <label htmlFor="name">Ваше имя <input type="text" /></label>
                 <label htmlFor="id">Ваш номер телефона, либо Telegram <input type="text" /></label>
-                <label htmlFor="question">Ваш вопрос <input type="text" /></label>
+                <label htmlFor="question">Ваш вопроrс <input type="text" /></label>
             </form>
         </div>
 
